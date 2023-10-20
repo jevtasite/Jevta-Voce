@@ -7,20 +7,35 @@
     font-size: 18px;
   }
 
-@media (max-width: 991px) {
-.navbar-collapse.collapse {
-      margin-top: 10px;
-    }
-  }
-
 .section {
     min-height: 500px;
     padding: 40px;
 }
 
 #section1 { 
-    background-image: url('https://app.gemoo.com/share/image-annotation/574050293598134272?codeId=DW2mOpVnV8r3p&origin=imageurlgenerator');
+    background-image: url("https://i.postimg.cc/Qd7J8x0c/bg-pears.jpg");
+    background-size: cover;
     height: 100vh;
 }
 .section2 { background-color: #e74c3c; }
 .section3 { background-color: #27ae60; }
+
+#headline {
+  font-size: 60px;
+  color: #fff;
+}  
+
+.logo {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+.navbar-collapse.collapse {
+      margin-top: 10px;
+    }
+  #headline {
+  font-size: 40px;
+}
+}
