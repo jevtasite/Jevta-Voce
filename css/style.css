@@ -1,0 +1,26 @@
+.custom-bg {
+    background-color: #a4b02c !important;
+  }
+
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+  }
+
+@media (max-width: 991px) {
+.navbar-collapse.collapse {
+      margin-top: 10px;
+    }
+  }
+
+.section {
+    min-height: 500px;
+    padding: 40px;
+}
+
+#section1 { 
+    background-image: url('https://app.gemoo.com/share/image-annotation/574050293598134272?codeId=DW2mOpVnV8r3p&origin=imageurlgenerator');
+    height: 100vh;
+}
+.section2 { background-color: #e74c3c; }
+.section3 { background-color: #27ae60; }
