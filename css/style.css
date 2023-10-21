@@ -17,18 +17,114 @@
     background-size: cover;
     height: 100vh;
 }
-.section2 { background-color: #e74c3c; }
+.section2 {
+   background-color: #a4b02c; 
+   height: 65vh;
+  }
 .section3 { background-color: #27ae60; }
+
+i {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: white;
+  font-size: 45px;
+}
+
+i:hover {
+  color: #a4b02c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 #headline {
   font-size: 60px;
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }  
+
+#headline2 {
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}  
+
+#text-about {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 .logo {
   width: 250px;
   height: 150px;
   margin-bottom: 20px;
+}
+
+#pear-drvo {
+  margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 342px) {
+  .section2 {
+    height: 900px;
+  }
+  #headline2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 343px) and (max-width: 518px) {
+  .section2 {
+    height: 800px;
+  }
+}
+
+@media (min-width: 519px) and (max-width: 554px) {
+  .section2 {
+    height: 700px;
+  }
+}
+
+
+@media (min-width: 555px) and (max-width: 767px) {
+  .section2 {
+    height: 670px;
+  }
+}
+
+@media (max-width: 767px) {
+  #logo2 {
+    width: 80px;
+    height: 45px;
+  }
+  #text-about {
+    font-size: 15px;
+  }
+  #pear-drvo {
+    width: 30vh;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 506px) {
+  i {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  #text-about {
+    font-size: 15px;
+  }
+  img {
+    width: 30vh;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section2 {
+    height: 100px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -39,3 +135,4 @@
   font-size: 40px;
 }
 }
+
