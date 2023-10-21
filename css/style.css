@@ -97,9 +97,24 @@ footer {
   background-color: #1d1f07;
 }
 
+@media (max-width: 320px) {
+  .section2 {
+    height: 105vh;
+  }
+  .section3 {
+    height: 125vh;
+  }
+  #headline2 {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 342px) {
   .section2 {
     height: 900px;
+  }
+  .section3 {
+    height: 125vh;
   }
   #headline2 {
     font-size: 30px;
@@ -109,6 +124,9 @@ footer {
 @media (min-width: 343px) and (max-width: 518px) {
   .section2 {
     height: 800px;
+  }
+  .section3 {
+    height: 125vh;
   }
 }
 
@@ -123,6 +141,9 @@ footer {
   .section2 {
     height: 670px;
   }
+  .section3 {
+    height: 105vh;
+  }
 }
 
 @media (max-width: 767px) {
@@ -136,9 +157,6 @@ footer {
   #pear-drvo {
     width: 30vh;
     height: 30vh;
-  }
-  .section3 {
-    height: 100vh;
   }
   #headline3 {
     margin-top: 20px;
