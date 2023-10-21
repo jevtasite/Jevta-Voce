@@ -7,6 +7,10 @@
     font-size: 18px;
   }
 
+.nav-link:hover {
+  color: #1d1f07 !important;
+}  
+
 .section {
     min-height: 500px;
     padding: 40px;
@@ -21,7 +25,10 @@
    background-color: #a4b02c; 
    height: 65vh;
   }
-.section3 { background-color: #27ae60; }
+.section3 {
+   background-color: #939e27; 
+   height: 70vh;
+  }
 
 i {
   margin-top: 20px;
@@ -30,7 +37,7 @@ i {
   font-size: 45px;
 }
 
-i:hover {
+#brand:hover {
   color: #a4b02c;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -47,12 +54,30 @@ i:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }  
 
+#headline3 {
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 32px;
+}  
+
+
 #text-about {
   font-size: 18px;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+ul {
+  list-style-type: none;
+}
+
+#text-about1 {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 32px;
+}
 .logo {
   width: 250px;
   height: 150px;
@@ -61,6 +86,15 @@ i:hover {
 
 #pear-drvo {
   margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#mapa {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+  background-color: #1d1f07;
 }
 
 @media (min-width: 320px) and (max-width: 342px) {
@@ -102,6 +136,12 @@ i:hover {
   #pear-drvo {
     width: 30vh;
     height: 30vh;
+  }
+  .section3 {
+    height: 100vh;
+  }
+  #headline3 {
+    margin-top: 20px;
   }
 }
 
